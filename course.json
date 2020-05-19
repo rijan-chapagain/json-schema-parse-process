@@ -1,0 +1,30 @@
+{
+    "course": {
+      "name": "Bachelor of Science - Internet Computing",
+      "duration": "3 years",
+      "unit": [
+        {
+          "title": "ICT375 Advanced Web Programming",
+          "lecturer": {
+            "surname": {
+              "-language": "English",
+              "#text": "Xie"
+            },
+            "othernames": {
+              "-language": "English",
+              "#text": "Hong"
+            },
+            "email": "h.xie@murdoch.edu.au"
+          }
+        },
+        {
+          "title": "ICT108 Introduction to Multimedia and the Internet",
+          "lecturer": {
+            "surname": "Rai",
+            "othernames": "Shri",
+            "email": "s.rai@murdoch.edu.au"
+          }
+        }
+      ]
+    }
+  }
