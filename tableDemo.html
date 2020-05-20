@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="myTable.js"></script>
+	<script>$( function() {
+    	var data = [["City 1", "City 2", "City 3"], //headers
+                ["New York", "LA", "Seattle"], 
+                ["Paris", "Milan", "Rome"], 
+				["Pittsburg", "Wichita", "Boise"]]
+		var ndata = [["Kathmandu", "Pokhara", "Dharan"], 
+                ["Perth", "Mandhura", "Morley"]]
+		var cityTable = makeTable($(document.body), data);
+		var newRow = appendRow($(document.body), ndata);
+
+	});
+	</script>
+</body>
+</html>
